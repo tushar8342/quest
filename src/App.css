@@ -1,0 +1,99 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.App {
+  background-color: rgba(34, 122, 245, 0.873);
+  width: 90%;
+  max-width: 1400px;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px 0px #00000008;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+/* global use css */
+.btn {
+  cursor: pointer;
+  display: block;
+  user-select: none;
+  color: grey;
+  transition: opacity 0.2s;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+
+/* list styling */
+.list {
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.list > div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+.list > div:first-child h4 {
+  margin: 0;
+}
+.list > div:first-child span {
+  font-size: 22px;
+}
+.list > div:last-child {
+  margin-top: auto;
+}
+.list > div:last-child button {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  gap: 10px;
+  background-color: transparent;
+}
+.card {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0px #0000000d;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.card > div {
+  height: 8px;
+  width: 35px;
+  background-color: var(--label-color, black);
+  border-radius: 4px;
+}
+.card > ul:empty {
+  display: none;
+}
+.card > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+.card > ul li {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 14px;
+}
+.card > ul li span:first-child {
+  font-size: 18px;
+}
