@@ -2,6 +2,10 @@
 
 Welcome to the React Card Manager App! This is a simple web application built using React.js. The app allows you to manage cards by moving them between different sections. Feel free to customize the design and functionality of the card creation as per your needs.
 
+## Deployed App
+
+Check out the deployed version of the app [https://tushar-quest.netlify.app/](https://tushar-quest.netlify.app/).
+
 ## How to Run
 
 To run this React app locally on your machine, follow these steps:
